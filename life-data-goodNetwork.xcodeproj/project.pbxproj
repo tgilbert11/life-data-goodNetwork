@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F501DC1C35DCFD0076DBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F501DB1C35DCFD0076DBFD /* AppDelegate.swift */; };
+		B5F501DE1C35DCFD0076DBFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F501DD1C35DCFD0076DBFD /* ViewController.swift */; };
+		B5F501E11C35DCFD0076DBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F501DF1C35DCFD0076DBFD /* Main.storyboard */; };
+		B5F501E31C35DCFD0076DBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F501E21C35DCFD0076DBFD /* Assets.xcassets */; };
+		B5F501E61C35DCFD0076DBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F501E41C35DCFD0076DBFD /* LaunchScreen.storyboard */; };
+		B5F501F11C35DCFD0076DBFD /* life_data_goodNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F501F01C35DCFD0076DBFD /* life_data_goodNetworkTests.swift */; };
+		B5F501FC1C35DCFD0076DBFD /* life_data_goodNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F501FB1C35DCFD0076DBFD /* life_data_goodNetworkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5F501ED1C35DCFD0076DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F501D01C35DCFD0076DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F501D71C35DCFD0076DBFD;
+			remoteInfo = "life-data-goodNetwork";
+		};
+		B5F501F81C35DCFD0076DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F501D01C35DCFD0076DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F501D71C35DCFD0076DBFD;
+			remoteInfo = "life-data-goodNetwork";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5F501D81C35DCFD0076DBFD /* life-data-goodNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "life-data-goodNetwork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F501DB1C35DCFD0076DBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5F501DD1C35DCFD0076DBFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5F501E01C35DCFD0076DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F501E21C35DCFD0076DBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5F501E51C35DCFD0076DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5F501E71C35DCFD0076DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F501EC1C35DCFD0076DBFD /* life-data-goodNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-data-goodNetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F501F01C35DCFD0076DBFD /* life_data_goodNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_data_goodNetworkTests.swift; sourceTree = "<group>"; };
+		B5F501F21C35DCFD0076DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F501F71C35DCFD0076DBFD /* life-data-goodNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-data-goodNetworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F501FB1C35DCFD0076DBFD /* life_data_goodNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_data_goodNetworkUITests.swift; sourceTree = "<group>"; };
+		B5F501FD1C35DCFD0076DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F501D51C35DCFD0076DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F501E91C35DCFD0076DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F501F41C35DCFD0076DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F501CF1C35DCFD0076DBFD = {
+			isa = PBXGroup;
+			children = (
+				B5F501DA1C35DCFD0076DBFD /* life-data-goodNetwork */,
+				B5F501EF1C35DCFD0076DBFD /* life-data-goodNetworkTests */,
+				B5F501FA1C35DCFD0076DBFD /* life-data-goodNetworkUITests */,
+				B5F501D91C35DCFD0076DBFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F501D91C35DCFD0076DBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F501D81C35DCFD0076DBFD /* life-data-goodNetwork.app */,
+				B5F501EC1C35DCFD0076DBFD /* life-data-goodNetworkTests.xctest */,
+				B5F501F71C35DCFD0076DBFD /* life-data-goodNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F501DA1C35DCFD0076DBFD /* life-data-goodNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B5F501DB1C35DCFD0076DBFD /* AppDelegate.swift */,
+				B5F501DD1C35DCFD0076DBFD /* ViewController.swift */,
+				B5F501DF1C35DCFD0076DBFD /* Main.storyboard */,
+				B5F501E21C35DCFD0076DBFD /* Assets.xcassets */,
+				B5F501E41C35DCFD0076DBFD /* LaunchScreen.storyboard */,
+				B5F501E71C35DCFD0076DBFD /* Info.plist */,
+			);
+			path = "life-data-goodNetwork";
+			sourceTree = "<group>";
+		};
+		B5F501EF1C35DCFD0076DBFD /* life-data-goodNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F501F01C35DCFD0076DBFD /* life_data_goodNetworkTests.swift */,
+				B5F501F21C35DCFD0076DBFD /* Info.plist */,
+			);
+			path = "life-data-goodNetworkTests";
+			sourceTree = "<group>";
+		};
+		B5F501FA1C35DCFD0076DBFD /* life-data-goodNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F501FB1C35DCFD0076DBFD /* life_data_goodNetworkUITests.swift */,
+				B5F501FD1C35DCFD0076DBFD /* Info.plist */,
+			);
+			path = "life-data-goodNetworkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F501D71C35DCFD0076DBFD /* life-data-goodNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F502001C35DCFD0076DBFD /* Build configuration list for PBXNativeTarget "life-data-goodNetwork" */;
+			buildPhases = (
+				B5F501D41C35DCFD0076DBFD /* Sources */,
+				B5F501D51C35DCFD0076DBFD /* Frameworks */,
+				B5F501D61C35DCFD0076DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "life-data-goodNetwork";
+			productName = "life-data-goodNetwork";
+			productReference = B5F501D81C35DCFD0076DBFD /* life-data-goodNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5F501EB1C35DCFD0076DBFD /* life-data-goodNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F502031C35DCFD0076DBFD /* Build configuration list for PBXNativeTarget "life-data-goodNetworkTests" */;
+			buildPhases = (
+				B5F501E81C35DCFD0076DBFD /* Sources */,
+				B5F501E91C35DCFD0076DBFD /* Frameworks */,
+				B5F501EA1C35DCFD0076DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F501EE1C35DCFD0076DBFD /* PBXTargetDependency */,
+			);
+			name = "life-data-goodNetworkTests";
+			productName = "life-data-goodNetworkTests";
+			productReference = B5F501EC1C35DCFD0076DBFD /* life-data-goodNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5F501F61C35DCFD0076DBFD /* life-data-goodNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F502061C35DCFD0076DBFD /* Build configuration list for PBXNativeTarget "life-data-goodNetworkUITests" */;
+			buildPhases = (
+				B5F501F31C35DCFD0076DBFD /* Sources */,
+				B5F501F41C35DCFD0076DBFD /* Frameworks */,
+				B5F501F51C35DCFD0076DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F501F91C35DCFD0076DBFD /* PBXTargetDependency */,
+			);
+			name = "life-data-goodNetworkUITests";
+			productName = "life-data-goodNetworkUITests";
+			productReference = B5F501F71C35DCFD0076DBFD /* life-data-goodNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F501D01C35DCFD0076DBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Taylor H. Gilbert";
+				TargetAttributes = {
+					B5F501D71C35DCFD0076DBFD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B5F501EB1C35DCFD0076DBFD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B5F501D71C35DCFD0076DBFD;
+					};
+					B5F501F61C35DCFD0076DBFD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B5F501D71C35DCFD0076DBFD;
+					};
+				};
+			};
+			buildConfigurationList = B5F501D31C35DCFD0076DBFD /* Build configuration list for PBXProject "life-data-goodNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F501CF1C35DCFD0076DBFD;
+			productRefGroup = B5F501D91C35DCFD0076DBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F501D71C35DCFD0076DBFD /* life-data-goodNetwork */,
+				B5F501EB1C35DCFD0076DBFD /* life-data-goodNetworkTests */,
+				B5F501F61C35DCFD0076DBFD /* life-data-goodNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F501D61C35DCFD0076DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F501E61C35DCFD0076DBFD /* LaunchScreen.storyboard in Resources */,
+				B5F501E31C35DCFD0076DBFD /* Assets.xcassets in Resources */,
+				B5F501E11C35DCFD0076DBFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F501EA1C35DCFD0076DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F501F51C35DCFD0076DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F501D41C35DCFD0076DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F501DE1C35DCFD0076DBFD /* ViewController.swift in Sources */,
+				B5F501DC1C35DCFD0076DBFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F501E81C35DCFD0076DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F501F11C35DCFD0076DBFD /* life_data_goodNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F501F31C35DCFD0076DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F501FC1C35DCFD0076DBFD /* life_data_goodNetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5F501EE1C35DCFD0076DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F501D71C35DCFD0076DBFD /* life-data-goodNetwork */;
+			targetProxy = B5F501ED1C35DCFD0076DBFD /* PBXContainerItemProxy */;
+		};
+		B5F501F91C35DCFD0076DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F501D71C35DCFD0076DBFD /* life-data-goodNetwork */;
+			targetProxy = B5F501F81C35DCFD0076DBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5F501DF1C35DCFD0076DBFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F501E01C35DCFD0076DBFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F501E41C35DCFD0076DBFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F501E51C35DCFD0076DBFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F501FE1C35DCFD0076DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F501FF1C35DCFD0076DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F502011C35DCFD0076DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "life-data-goodNetwork/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "taylorg.life-data-goodNetwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5F502021C35DCFD0076DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "life-data-goodNetwork/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "taylorg.life-data-goodNetwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5F502041C35DCFD0076DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "life-data-goodNetworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "taylorg.life-data-goodNetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/life-data-goodNetwork.app/life-data-goodNetwork";
+			};
+			name = Debug;
+		};
+		B5F502051C35DCFD0076DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "life-data-goodNetworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "taylorg.life-data-goodNetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/life-data-goodNetwork.app/life-data-goodNetwork";
+			};
+			name = Release;
+		};
+		B5F502071C35DCFD0076DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "life-data-goodNetworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "taylorg.life-data-goodNetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "life-data-goodNetwork";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B5F502081C35DCFD0076DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "life-data-goodNetworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "taylorg.life-data-goodNetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "life-data-goodNetwork";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F501D31C35DCFD0076DBFD /* Build configuration list for PBXProject "life-data-goodNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F501FE1C35DCFD0076DBFD /* Debug */,
+				B5F501FF1C35DCFD0076DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F502001C35DCFD0076DBFD /* Build configuration list for PBXNativeTarget "life-data-goodNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F502011C35DCFD0076DBFD /* Debug */,
+				B5F502021C35DCFD0076DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5F502031C35DCFD0076DBFD /* Build configuration list for PBXNativeTarget "life-data-goodNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F502041C35DCFD0076DBFD /* Debug */,
+				B5F502051C35DCFD0076DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5F502061C35DCFD0076DBFD /* Build configuration list for PBXNativeTarget "life-data-goodNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F502071C35DCFD0076DBFD /* Debug */,
+				B5F502081C35DCFD0076DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F501D01C35DCFD0076DBFD /* Project object */;
+}
